@@ -9,7 +9,7 @@ In flowershop directory:
   # Compose containerized services 
   docker-compose up
   # Open new terminal window
-  # Look up flowershop_web conatiner name (eg. flowershop_web_1) 
+  # Look up flowershop_web conatiner name (eg. flowershop-master_web_1) 
   docker ps
   # Initialize datamodel
   docker exec flowershop_web_1 python3 manage.py makemigrations shop
