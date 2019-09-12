@@ -8,6 +8,7 @@ To use, download files.
 In flowershop directory:
   # Compose containerized services 
   docker-compose up
+  # Open new terminal window
   # Look up flowershop_web conatiner name (eg. flowershop_web_1) 
   docker ps
   # Initialize datamodel
